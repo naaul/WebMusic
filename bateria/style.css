@@ -1,0 +1,135 @@
+body {
+    background-color: #8696FE;
+}
+
+#headder-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#piano-img, #bateria-img {
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 100px;
+}
+
+#piano-button, #bateria-button {
+    border-radius: 10px;
+    border-color: #11009E;
+    background-color: #11009E;
+}
+
+#piano-button {
+    background-color: #5e51d2;
+}
+
+h1{
+    margin-top: 0px;
+    font-size: 140px;
+    color: #11009E;
+    font-family: 'Bagel Fat One', cursive;
+    text-shadow: 10px 10px 10px #634295;
+    margin-left: 20px;
+}
+
+#buttons-div {
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+#drum-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.button-drum {
+    border-radius: 10px;
+    border-color: #11009E;
+    background-color: #8c80ff;
+}
+
+.img-drum {
+    height: 200px;
+}
+
+.button-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.hrclass{
+    display: none;
+}
+
+.last-text{
+    font-family: 'Bagel Fat One';
+    color: #11009E;
+    padding-top: 5.5rem;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .img-drum{
+        height: 170px;
+    }
+    
+    .p-text{
+        display: none;
+    }
+
+    .h1class{
+        margin: 0%;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #piano-img, #bateria-img{
+        height: 70px;
+    }
+
+    #buttons-div{
+        display: flex;
+        gap: 5px;
+    }
+
+
+    #headder-div{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: left;
+        gap: 20px;
+    }
+
+    #drum-div{
+        display: wrap;
+        justify-content: left;
+        flex-direction:column;
+        height: 500px;
+    }
+
+    .button-text{
+        display:initial;
+        font-size: 0px;
+    }
+
+    .img-drum{
+        height: 6rem;
+    }
+
+    .hrclass{
+        display: block;
+        margin-top: 60px;
+        color: #11009E;
+    }
+  }
