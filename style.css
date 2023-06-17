@@ -16,12 +16,12 @@ body {
 
 #piano-button, #bateria-button {
     border-radius: 10px;
-    border-color: #11009E;
+    border-color: #5e51d2;
     background-color: #11009E;
 }
 
 #piano-button {
-    background-color: #5e51d2;
+    background-color: #11009E;
 }
 
 h1{
