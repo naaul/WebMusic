@@ -16,8 +16,8 @@ body {
 
 #piano-button, #bateria-button {
     border-radius: 10px;
-    border-color: #5e51d2;
-    background-color: #11009E;
+    border-color: #11009E;
+    background-color: #5e51d2;
 }
 
 #piano-button {
